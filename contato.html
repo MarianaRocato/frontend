@@ -1,89 +1,94 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="icon" type="image.png" href="assets/images/goku_ico.png">
-    <title>Portifólio da Mariana</title>
+    <link rel="icon" type="image.png" href="assets/images/bobtail-japones.png">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <title>Portifólio da Jujuba</title>
 </head>
+
 <body>
     <!-- Menu da Página-->
     <nav>
         <!-- Logo + Texto á esquerda do Menu-->
-        <div>
-            <img src="assets/images/goku_ico.png" alt="Logo da página - Goku">
-            <span>Pótifólio da Mari</span>
+        <div class="logo">
+            <img class="icone" src="assets/images/bobtail-japones.png" alt="Logo da página - Jujuba">
+            <span class="titulo">Pótifólio da Jujuba</span>
         </div>
         <!-- Opçoes do Menu ultilizando marcadores não ordenados (simbólicos)-->
         <ul>
-            <a href="index.html">
-            <li>Home</li>
-            </a>    
-            <a href="contato.html">        
-            <li>Contato</li>
-            </a>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="contato.html">Contato</a></li>
         </ul>
     </nav>
 
     <!-- Conteúdo da Página-->
-    <main>
+    <main class="contato">
 
-        <section>
+        <section class="formulario">
             <form>
 
             <h2>Contato</h2>
-               <div>
+            
+               <div class="campos-form">
                 <label for="nome">Nome:</label>
                 <input id="nome" type="text" placeholder="Insira o seu Nome Completo">
                 <div id="txtNome"></div>
                 </div>
-                <div>
+
+                <div class="campos-form">
                     <label for="email">E-mail</label>
                     <input id="email" type="text" placeholder="Insira o seu E-mail">
                     <div id="txtNome"></div>
                     </div>
-                    <div>
+
+                    <div class="campos-form"                                                                                                                                                                    >
                         <label for="mensagem">Mensagem:</label>
-                        <input id="mensagem" type="text" roews= "8" placeholder="Insira sua Mensagem..."></textarea>
+                        <textarea id="mensagem" type="text" rows= "8" placeholder="Insira sua Mensagem..."></textarea>
                         <div id="txtNome"></div>
                         </div>
+
                         <button type="button">Enviar</button>
             </form>
-        </section>  
-        <section>
-            <form>
+        </section>
 
-            <h2>Não sabe seu endereço?</h2>
-               <div>
+        <section>
+            
+
+            <h2>Consultar CEP</h2>
+               <div class="endereco">
+                <div class="campos-form">
                 <label for="cep">CEP:</label>
                 <input id="cep" type="text" placeholder="Digite seu CEP">
-                <div id="txtNome"></div>
+                <div id="txtCep"></div>
                 </div>
                 <button type="button">Consultar</button>
-                <div>
+                <hr>
+                <div class="campos-form">
                     <label for="endereço">Endereço</label>
                     <input id="endereço" type="text" placeholder="Busca CEP...">
-                    <div id="txtNome"></div>
+                    <div id="txtCep"></div>
                     </div>
-            </form>
+               </div>
         </section>  
     </main>
 
  <!-- Rodapé da Página-->
  <footer>
-    <div>
+    <div class="redes">
         <a href="https://www.linkedin.com/in/marianarocato/" target="_blank">
-        <img src="assets/images/linkedin.png" alt="linkedin">
+        <img class="linkedin" src="assets/images/linkedin.png" alt="linkedin">
         </a>
         <a href="https://www.instagram.com/f.rocato/" target="_blank">
-        <img src="assets/images/instagram.png" alt="instagram">
+        <img class="instagram" src="assets/images/instagram.png" alt="instagram">
         </a>
         <a href="https://github.com/MarianaRocato" target="_blank">
-        <img src="assets/images/github.png" alt="github">
+        <img class="github" src="assets/images/github.png" alt="github">
         </a>
     </div>
-    <p>Desenvolvido por: Mariana Rocato, 2023 &copy;</p>
+    <p class="by">Desenvolvido por: Mariana Rocato, 2023 &copy;</p>
 </footer>
 </body>
 </html>-
