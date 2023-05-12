@@ -38,3 +38,5 @@ tabuada(5)
 const nomes = ["Guilherme", "Laís", "Jamile"]
 
 nomes.forEach(nome => console.log(nome))
+
+nomes.indexOf('Laís')
